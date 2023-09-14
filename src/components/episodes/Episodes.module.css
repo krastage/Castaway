@@ -1,0 +1,126 @@
+/* Основной контейнер .mainProduct */
+.mainProduct {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Стили для заголовка .mainProduct__header */
+.mainProduct__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 50px 0 50px;
+}
+
+/* Общие стили для .mainProduct__blocks и .productContainer__description */
+.mainProduct__blocks,
+.productContainer__description {
+  list-style: none;
+  padding: 0;
+  gap: 60px;
+  margin: 0;
+}
+
+/* Стили для заголовков .header__title и .description__title */
+.header__title,
+.description__title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Специфичные стили для .header__title */
+.header__title {
+  line-height: 79.2px; /* 123.75% */
+  letter-spacing: 2.88px;
+}
+
+/* Специфичные стили для .description__title */
+.description__title {
+  line-height: 70.4px; /* 110% */
+  letter-spacing: 2.56px;
+}
+
+/* Стили для описания .productContainer__description */
+.productContainer__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+/* Стили для блока .mainProduct__block */
+.mainProduct__block {
+  background: #000;
+  border-radius: 32px;
+  display: flex;
+  margin: 60px 50px;
+  padding: 40px;
+  gap: 53px;
+}
+
+/* Стили для типа .description__type */
+.description__type {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  border-radius: 6px;
+  background: #191919;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+}
+
+/* Стили для эпизода .description__episode */
+.description__episode {
+  color: #118DA8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+  margin: 0;
+}
+
+/* Стили для текста .description__text */
+.description__text {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  margin: 0;
+}
+
+/* Общие стили для кнопок .header__button и .description__button */
+.header__button,
+.description__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  border-radius: 6px;
+  background: #118DA8;
+}
+
+/* Специфичные стили для .header__button */
+.header__button {
+  width: 178px;
+  height: 51px;
+  flex-shrink: 0;
+}
+
+/* Специфичные стили для .description__button */
+.description__button {
+  padding: 12px 15px;
+}

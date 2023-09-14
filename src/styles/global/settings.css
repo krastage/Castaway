@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #191919;
+  font-family: 'Roboto', sans-serif;
+}

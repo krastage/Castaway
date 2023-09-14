@@ -1,0 +1,70 @@
+/* Основной контейнер .mainContent */
+.mainContent {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 157px;
+}
+
+/* Стили для изображения с линиями .mainContent__linesImg */
+.mainContent__linesImg {
+  position: absolute;
+  padding: 14px 24px;
+}
+
+/* Стили для изображения персоны .mainContent__personImg */
+.mainContent__personImg {
+  padding-left: 50px;
+  padding-top: 40px;
+  width: 45vw;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Стили для блока текста и ссылок .mainContent__textAndLinks */
+.mainContent__textAndLinks {
+  margin: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Стили для заголовка .mainContent__title */
+.mainContent__title {
+  color: #FFF;
+  font-size: 104px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115px;
+  letter-spacing: 3.84px;
+}
+
+/* Стили для "следующего слова" .title__nextWord */
+.title__nextWord {
+  font-size: 110px;
+}
+
+/* Стили для "уровня" .title__levelWord */
+.title__levelWord {
+  font-size: 116px;
+  font-weight: 700;
+}
+
+/* Стили для заголовка ссылок .textAndLinks_linksTitle */
+.textAndLinks_linksTitle {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 74px 0 0 22px;
+}
+
+/* Стили для списка ссылок .textAndLinks_streamingList */
+.textAndLinks_streamingList {
+  display: flex;
+  margin: 16px 22px;
+  padding: 0;
+  list-style: none;
+  gap: 17px;
+}

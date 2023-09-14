@@ -1,0 +1,83 @@
+/* Основной контейнер .mainContent */
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 157px;
+  padding: 40px 50px 0 50px;
+  gap: 60px;
+}
+
+/* Стили для списка .mainContent__list */
+.mainContent__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для кнопки .contentButtonRectangle */
+.contentButtonRectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 50%; /* Бордер радиус половина ширины/высоты для создания круглой кнопки */
+  background: #118DA8;
+}
+
+/* Стили для ссылки внутри .contentButtonRectangle */
+.contentButtonRectangle a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для иконки внутри кнопки */
+.contentButton {
+  width: 151px;
+  height: 80px;
+}
+
+/* Стили для описания .contentButtonDescription */
+.contentButtonDescription {
+  color: #118DA8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* Стили для заголовка .contentTitle */
+.contentTitle {
+  color: #FFF;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.2px; /* 121.846% */
+  letter-spacing: 2.88px;
+  margin: 0;
+}
+
+/* Стили для текста .contentText */
+.contentText {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  margin-top: 28px;
+}
+
+/* Стили для изображения .mainContent__img */
+.mainContent__img {
+  width: 45vw;
+  height: auto;
+}

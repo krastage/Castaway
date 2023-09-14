@@ -1,0 +1,41 @@
+/* Основной блок заголовка */
+.mainHeader {
+  padding: 26px 50px;
+  user-select: none;
+}
+
+/* Контейнер внутри блока заголовка */
+.mainHeader__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/* Список элементов в заголовке */
+.mainHeader__list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+/* Общие стили для ссылок и активных ссылок */
+.mainHeader__link,
+.mainHeader__activeLink {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+}
+
+/* Стили для наведения на ссылку */
+.mainHeader__link:hover {
+  color: #cccccc;
+}
+
+/* Стили для активной ссылки */
+.mainHeader__activeLink {
+  color: #118DA8;
+}
