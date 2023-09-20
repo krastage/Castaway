@@ -1,7 +1,9 @@
+import globalStyles from '../../styles/global/settings.css';
 import styles from './Episodes.module.css';
 
 export const Episodes = () => {
   return (
+    <div className={globalStyles.container}>
     <main className={styles.mainProduct}>
       <div className={styles.mainProduct__header}>
         <h1 className={styles.header__title}>Latest episodes</h1>
@@ -11,24 +13,14 @@ export const Episodes = () => {
         <li>
           <div className={styles.mainProduct__block}>
             <img src="/img/episodes/mixer.png" alt="Mixer" />
-            <ul className={styles.productContainer__description}>
-              <li>
+            <div className={styles.productContainer__description}>
                 <p className={styles.description__type}>Gear</p>
-              </li>
-              <li>
                 <p className={styles.description__episode}>Episode 3</p>
-              </li>
-              <li>
                 <h2 className={styles.description__title}>Should you get outboard audio gear?</h2>
-              </li>
-              <li>
                 <p className={styles.description__text}>Is hardware really worth it when it comes to podcasting? The
                   answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
-              </li>
-              <li>
                 <a href="" className={styles.description__button}>View Episode Details</a>
-              </li>
-            </ul>
+            </div>
           </div>
         </li>
         <li>
@@ -55,7 +47,7 @@ export const Episodes = () => {
         </li>
         <li>
           <div className={styles.mainProduct__block}>
-            <img src="/img/episodes/mixer.png" alt="Mixer" />
+            <img src="/img/episodes/block3.png" alt="Mixer" />
             <ul className={styles.productContainer__description}>
               <li>
                 <p className={styles.description__type}>Gear</p>
@@ -77,5 +69,6 @@ export const Episodes = () => {
         </li>
       </ul>
     </main>
+    </div>
   );
 };

@@ -1,18 +1,22 @@
 .container {
-  margin: 0 auto;
-  width: 1440px;
+  display: flex;
+  max-width: 1440px;
 }
 
-ul {
-  list-style: none;
+@media (max-width: 1240px) {
+  .container {
+    max-width: 970px;
+  }
 }
 
-html {
-  scroll-behavior: smooth;
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
 }
 
-body {
-  margin: 0;
-  background-color: #191919;
-  font-family: 'Roboto', sans-serif;
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
 }

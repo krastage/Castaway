@@ -1,11 +1,13 @@
 import styles from './Footer.module.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const Footer = () => {
   return (
     <footer className={styles.mainFooter}>
       <div>
-        <img src="/img/main-logo.svg" alt="Main logo" />
+        <NavLink to={'/home'}>
+          <img src="/img/main-logo.svg" alt="Main logo" />
+        </NavLink>
         <ul className={styles.socialLinks}>
           <li>
             <img src="/img/social/inst.svg" alt="Instagram" />
@@ -59,19 +61,19 @@ export const Footer = () => {
       <div>
         <ul className={styles.streamingList}>
           <li>
-            <img src="/img/links-elements/icon1.svg" alt="music1" />
+            <a href=""><img src="/img/links-elements/icon1.svg" alt="music1" /></a>
           </li>
           <li>
-            <img src="/img/links-elements/icon2.svg" alt="music2" />
+            <a href=""><img src="/img/links-elements/icon2.svg" alt="music2" /></a>
           </li>
           <li>
-            <img src="/img/links-elements/icon3.svg" alt="music3" />
+            <a href=""><img src="/img/links-elements/icon3.svg" alt="music3" /></a>
           </li>
           <li>
-            <img src="/img/links-elements/icon4.svg" alt="music4" />
+            <a href=""><img src="/img/links-elements/icon4.svg" alt="music4" /></a>
           </li>
           <li>
-            <img src="/img/links-elements/icon5.svg" alt="music5" />
+            <a href=""><img src="/img/links-elements/icon5.svg" alt="music5" /></a>
           </li>
         </ul>
       </div>
